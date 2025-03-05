@@ -15,46 +15,35 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-   ui[0]: "unused pin"
-  ui[1]: "unused pin"
+   ui[0]: ""
+  ui[1]: ""
   ui[2]: "TRIGGER PIN SU"
-  ui[3]: "unused pin"
-  ui[4]: "unused pin"
-  ui[5]: "unused pin"
-  ui[6]: "unused pin"
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: "TRIGGER PIN LL"
+  ui[6]: ""
   ui[7]: "TRIGGER PIN LH"
-  ui[8]: "unused pin"
-  ui[9]: "TRIGGER PIN LL"
-  ui[10]: "unused pin"
-  ui[11]: "unused pin"
-  ui[12]: "unused pin"
-  ui[13]: "unused pin"
+  
   # Outputs
-   uo[0]: "unused pin"
-  uo[1]: "unused pin"
-  uo[2]: "unused pin"
+   uo[0]: ""
+  uo[1]: "LED LLENADO""
+  uo[2]: "ECHO PIN LH"
   uo[3]: "ECHO PIN SU"
-  uo[4]: "unused pin"
-  uo[5]: "unused pin"
+  uo[4]: "ECHO PIN LL"
+  uo[5]: "LED ERROR"
   uo[6]: "SERVOMOTOR PIN"
-  uo[7]: "unused pin"
-  uo[8]: "ECHO PIN LH"
-  uo[9]: "unused pin"
-  uo[10]: "ECHO PIN LL"
-  uo[11]: "LED LLENADO"
-  uo[12]: "LED VACIO "
-  uo[13]: "LED ERROR"
-
+  uo[7]: "LED VACIO"
+ 
 
   # Bidirectional pins
- uio[0]: "unused pin"
-  uio[1]: "unused pin"
-  uio[2]: "unused pin"
-  uio[3]: "unused pin"
-  uio[4]: "unused pin"
-  uio[5]: "unused pin"
-  uio[6]: "unused pin"
-  uio[7]: "unused pin"
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
 
 # Do not change!
 yaml_version: 6
