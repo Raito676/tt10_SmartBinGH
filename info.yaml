@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     424528221972859905      # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "SmartBinGH"      # Project title
+  author:       "Juan Manuel Perez Cozatl, Ayshane Dominguez Davila, Miguel Alejandro Garcia Hernandez"      # Your name
+  discord:      "1_anubis_1"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Bote de basura controlado por 3 sensores ultrasonicos, diodos led que nos indican cuando el bote esta vacio o lleno, ayudado de un servomotor controlado por uno de los sensores ultrasonicos para que se abra en un lapso de 10 segundos para continuar con un cierre automatico, en caso de una falla dentro del circuito se activara un led (alarma) de color amarillo"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     10000      # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -15,34 +15,46 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
-
+   ui[0]: "unused pin"
+  ui[1]: "unused pin"
+  ui[2]: "TRIGGER PIN SU"
+  ui[3]: "unused pin"
+  ui[4]: "unused pin"
+  ui[5]: "unused pin"
+  ui[6]: "unused pin"
+  ui[7]: "TRIGGER PIN LH"
+  ui[8]: "unused pin"
+  ui[9]: "TRIGGER PIN LL"
+  ui[10]: "unused pin"
+  ui[11]: "unused pin"
+  ui[12]: "unused pin"
+  ui[13]: "unused pin"
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+   uo[0]: "unused pin"
+  uo[1]: "unused pin"
+  uo[2]: "unused pin"
+  uo[3]: "ECHO PIN SU"
+  uo[4]: "unused pin"
+  uo[5]: "unused pin"
+  uo[6]: "SERVOMOTOR PIN"
+  uo[7]: "unused pin"
+  uo[8]: "ECHO PIN LH"
+  uo[9]: "unused pin"
+  uo[10]: "ECHO PIN LL"
+  uo[11]: "LED LLENADO"
+  uo[12]: "LED VACIO "
+  uo[13]: "LED ERROR"
+
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+ uio[0]: "unused pin"
+  uio[1]: "unused pin"
+  uio[2]: "unused pin"
+  uio[3]: "unused pin"
+  uio[4]: "unused pin"
+  uio[5]: "unused pin"
+  uio[6]: "unused pin"
+  uio[7]: "unused pin"
 
 # Do not change!
 yaml_version: 6
